@@ -1,0 +1,20 @@
+.Nav {
+  font-size: 20px;
+}
+
+.Nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Nav li {
+  display: inline;
+  padding: 0 10px;
+}
+.Nav li:first-child {
+  padding-left: 0;
+}
+
+.Nav a {
+  color: #2980b9;
+}

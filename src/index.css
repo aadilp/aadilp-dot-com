@@ -1,13 +1,33 @@
+@keyframes changebackground {
+  from {
+    background: #eeeeee;
+    -webkit-transition: background-color 6s ease-out;
+    -moz-transition: background-color 6s ease-out;
+    -o-transition: background-color 6s ease-out;
+    transition: background-color 6s ease-out;
+  }
+  to {
+    background-color: #ffffff;
+    -webkit-transition: background-color 6s ease-out;
+    -moz-transition: background-color 6s ease-out;
+    -o-transition: background-color 6s ease-out;
+    transition: background-color 6s ease-out;
+  }
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  animation-name: changebackground;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+  animation-direction: alternate;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

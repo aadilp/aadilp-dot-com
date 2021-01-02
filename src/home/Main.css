@@ -1,0 +1,12 @@
+.Main h3,
+.Main h4 {
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 760px) {
+  .Main > div {
+    float: left;
+    width: 50%;
+  }
+}

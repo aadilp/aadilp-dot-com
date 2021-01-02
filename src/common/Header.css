@@ -1,0 +1,10 @@
+.Header {
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.Header h1,
+.Header h2 {
+  font-weight: 400;
+  margin: 0;
+}
