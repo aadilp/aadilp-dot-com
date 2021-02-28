@@ -5,6 +5,7 @@ import Feed from "./Feed";
 import Parser from "rss-parser";
 
 const parser = new Parser();
+const CORS_PROXY = "https://thingproxy.freeboard.io/fetch/";
 const RSS_FEED = "https://blog.aadilp.com/rss.xml";
 
 class Main extends React.Component {
@@ -17,7 +18,7 @@ class Main extends React.Component {
 
   fetchLatestPosts = () => {
     (async () => {
-      const feed = await parser.parseURL(RSS_FEED);
+      const feed = await parser.parseURL(CORS_PROXY + RSS_FEED);
       let posts = [];
       feed.items
         .slice(0, 5)
