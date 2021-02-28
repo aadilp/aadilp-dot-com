@@ -5,7 +5,7 @@ import Feed from "./Feed";
 import Parser from "rss-parser";
 
 const parser = new Parser();
-const CORS_PROXY = "https://thingproxy.freeboard.io/fetch/";
+const CORS_PROXY = "https://aadilp-cors.herokuapp.com/fetch/";
 const RSS_FEED = "https://blog.aadilp.com/rss.xml";
 
 class Main extends React.Component {
