@@ -3,3 +3,8 @@
   float: left;
   width: 100%;
 }
+
+.Footer a {
+  color: #2980b9;
+  font-size: 11px;
+}

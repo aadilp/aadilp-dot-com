@@ -1,22 +1,8 @@
 import PropTypes from "prop-types";
 import "./Feed.css";
+import { MONTHS } from "./constants";
 
-const MONTHS = {
-  0: "January",
-  1: "February",
-  2: "March",
-  3: "April",
-  4: "May",
-  5: "June",
-  6: "July",
-  7: "August",
-  8: "September",
-  9: "October",
-  10: "November",
-  11: "December",
-};
-
-const getDate = (dateString) => {
+const formatDate = (dateString) => {
   const date = new Date(dateString);
   return (
     date.getDate() + " " + MONTHS[date.getMonth()] + ", " + date.getFullYear()
@@ -30,7 +16,7 @@ const Feed = ({ posts }) => (
       <div key={post.title.trim()}>
         <a href={post.link}>{post.title}</a>
         <br />
-        {getDate(post.date)}
+        {formatDate(post.date)}
       </div>
     ))}
   </div>

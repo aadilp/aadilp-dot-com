@@ -3,10 +3,9 @@ import "./Main.css";
 import About from "./About";
 import Feed from "./Feed";
 import Parser from "rss-parser";
+import { CORS_PROXY, RSS_FEED } from "./constants";
 
 const parser = new Parser();
-const CORS_PROXY = "https://aadilp-cors.herokuapp.com/fetch/";
-const RSS_FEED = "https://blog.aadilp.com/rss.xml";
 
 class Main extends React.Component {
   constructor(props) {
