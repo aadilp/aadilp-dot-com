@@ -6,7 +6,7 @@ const RSS_FEED = "https://blog.aadilp.com/rss.xml";
 const SKILLS = {
   languages: {
     title: "Languages",
-    list: ["Java", "PHP", "JavaScript", "Python"],
+    list: ["Kotlin", "Java", "Python", "PHP", "JavaScript", "TypeScript"],
   },
   frameworks: {
     title: "Frameworks/Libraries",
@@ -14,7 +14,7 @@ const SKILLS = {
   },
   other: {
     title: "Everything Else",
-    list: ["Docker", "Kafka", "Relational Databases", "Podman", "Buildah"],
+    list: ["GraphQL", "Docker", "Kafka", "Relational Databases"],
   },
 };
 
