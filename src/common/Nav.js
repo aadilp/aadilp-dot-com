@@ -15,6 +15,9 @@ const Nav = () => (
       <li>
         <a href="https://twitter.com/AadilPitafi">Twitter</a>
       </li>
+      <li>
+        <a href="https://fosstodon.org/@aadilp" rel="me">Mastodon</a>
+      </li>
     </ul>
   </nav>
 );
