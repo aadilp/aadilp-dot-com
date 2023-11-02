@@ -1,5 +1,5 @@
 // Main
-const CORS_PROXY = "https://aadilp-cors.herokuapp.com/fetch/";
+const CORS_PROXY = "https://corsproxy.io/?";
 const RSS_FEED = "https://blog.aadilp.com/rss.xml";
 
 // About
