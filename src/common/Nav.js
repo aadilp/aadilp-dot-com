@@ -13,9 +13,6 @@ const Nav = () => (
         <a href="https://github.com/aadilp">GitHub</a>
       </li>
       <li>
-        <a href="https://twitter.com/AadilPitafi">Twitter</a>
-      </li>
-      <li>
         <a href="https://fosstodon.org/@aadilp" rel="me">Mastodon</a>
       </li>
     </ul>
